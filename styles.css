@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #444;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.image-gallery img {
+    width: 300px;
+    border: 1px solid #ddd;
+}
+
+.details {
+    max-width: 400px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.35;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: 1rem;
+}
