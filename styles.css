@@ -44,3 +44,24 @@ footer {
     color: white;
     text-align: 1rem;
 }
+
+/* For Responsive Design */
+@media (max-width: 768px){
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product img {
+        width: 80%;
+    }
+
+    .details {
+        max-width: 100%;
+    }
+}
